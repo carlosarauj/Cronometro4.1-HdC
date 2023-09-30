@@ -1,0 +1,74 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.container h1 {
+    color: blue;
+}
+
+.timer {
+    display: flex;
+    font-size: 90px;
+    font-weight: bold;
+    color: #333;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #172953;
+    min-width: 90px;
+}
+
+.separator{
+    color: gray;
+    padding: 0 10px;
+}
+
+#mil{
+    font-size: 30px;
+    color: gray;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+} 
+
+.btn{
+    padding:  10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#start{
+    background-color: blue;
+    color: white;
+}
+
+#pause, #resume{
+    display: none;
+}
+
+#pause{
+    background-color: red;
+    color: white;
+}
